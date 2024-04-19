@@ -318,5 +318,48 @@
 .banner-rate-text span:nth-child(3) {
     color: #bbb;
 }
-
+/*services*/
+.services-container {
+    width: 100%;
+    padding: 0 200px;
+}
+.services-txt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-txt h3 {
+    color: #EB5757;
+    letter-spacing: 5px;
+}
+.services-txt h1 {
+    width: 400px;
+    text-align: center;
+    margin: 20px;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #222;
+    line-height: 2.9rem;
+}
+.services {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.services img{
+   height: 230px;
+}
+.services h2 {
+    margin: 5px 0 15px;
+    color: #222;
+}
+.services p {
+    font-size: 1.1rem;
+    width: 260px;
+    margin: auto;
+    line-height: 27px;
+}
 
